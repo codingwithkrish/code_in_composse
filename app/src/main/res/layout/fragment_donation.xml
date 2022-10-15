@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".donation">
+
+    <LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity = "center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/dfd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lets Donate"
+            android:layout_marginTop="10dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+        <View
+            android:layout_width="420dp"
+            android:layout_height="1dp"
+            android:background="#000000"
+            android:layout_marginTop="3dp"
+            />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rec2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:itemCount="5"
+            tools:listitem="@layout/ngo_donation_card" />
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+    android:layout_marginTop="10dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+
+            android:id="@+id/idIVcourse"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/donation" />
+
+        <TextView
+            android:id="@+id/idTVtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CAPTION"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+    <View
+        android:layout_width="420dp"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_marginTop="3dp"
+        />
+    </LinearLayout>
