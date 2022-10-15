@@ -83,11 +83,11 @@ class Ngo_Home : Fragment() {
 
     private  fun dataint(){
         arrayList = arrayListOf<ItemsViewModel>()
-        arrayList.add(ItemsViewModel(R.drawable.a,"snehalaya","We make a living by what we get, but we make a life by what we give",R.drawable.f))
-        arrayList.add(ItemsViewModel(R.drawable.b,"The Live Love Laugh Foundation","Good actions give strength to ourselves and inspire good actions in others",R.drawable.g))
-        arrayList.add(ItemsViewModel(R.drawable.c,"CRY (Child Rights and You)","An effort made for the happiness of others lifts us above ourselves",R.drawable.h))
-        arrayList.add(ItemsViewModel(R.drawable.d,"Smile Foundation","The best way to find yourself is to lose yourself in the service of others",R.drawable.i))
-        arrayList.add(ItemsViewModel(R.drawable.e,"Goonj","As one person I cannot change the world, but I can change the world of one person",R.drawable.j))
+        arrayList.add(ItemsViewModel(R.drawable.f,"snehalaya","We make a living by what we get, but we make a life by what we give",R.drawable.a))
+        arrayList.add(ItemsViewModel(R.drawable.g,"The Live Love Laugh Foundation","Good actions give strength to ourselves and inspire good actions in others",R.drawable.b))
+        arrayList.add(ItemsViewModel(R.drawable.h,"CRY (Child Rights and You)","An effort made for the happiness of others lifts us above ourselves",R.drawable.c))
+        arrayList.add(ItemsViewModel(R.drawable.i,"Smile Foundation","The best way to find yourself is to lose yourself in the service of others",R.drawable.d))
+        arrayList.add(ItemsViewModel(R.drawable.j,"Goonj","As one person I cannot change the world, but I can change the world of one person",R.drawable.e))
 
     }
 
